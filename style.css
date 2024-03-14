@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(233, 236, 236);
+    margin: 1rem 2%;
+    font-family: 'Poppins';
+}
+.container{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.message{
+    display: flex;
+    gap: 15px;
+    background-color: #F6F5F5;
+    margin: 15px;
+    padding: 20px 20px 20px 20px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+img{
+    width: 60px;
+    height: 60px;
+}
+p{
+    color: rgb(104, 103, 103);
+}
+p:nth-child(even), h3{
+    color: gray;
+}
+#mark{
+    font-weight: 400;
+    cursor: pointer;
+}
+#mark:hover{
+    color: red;
+}
+.special_info{
+    display: flex;
+    gap: 15px;
+}
+.special{
+    display: flex;
+    justify-content: space-between;
+}
+.reply{
+    margin: 0 10px 0 200px;
+    border: 1px solid  rgb(211, 217, 217);
+    border-radius: 10px;
+    padding: 10px;
+}
+#counter{
+    background-color: hsl(219, 85%, 26%);
+    color: #fff;
+    border-radius: 6px;
+    font-weight: 500;
+    padding: 5px;
+}
+#subject{
+    color: rgb(87, 86, 86);
+}
+#subject:hover{
+    color: hsl(219, 85%, 26%);
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: hsl(219, 85%, 26%);
+}
+span{
+    font-weight: bolder;
+    color: hsl(219, 85%, 26%);
+}
+#dot{
+    display: inline-block;
+    background-color: hsl(1, 90%, 64%);
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    margin: 1px 0 0.7px 2.1px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    margin-top: 70px;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
